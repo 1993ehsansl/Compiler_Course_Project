@@ -1,0 +1,22 @@
+Program p1Main;
+
+    Int a1 := #10;
+    Int r1esult;
+
+    Function f1(Int p1) : Int
+        Begin
+            Return p1 * #100
+        End;
+
+    Procedure p2roc(Int p1)
+        Begin
+            p1 := p1 * #2
+        End;
+
+
+    Begin
+         r1esult:=f1(#4);
+         Print(r1esult);
+         p2roc(a1);
+         Print(a1)
+    End;
